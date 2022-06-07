@@ -1,0 +1,19 @@
+{
+  "name": "mzhsz-vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "node build.js && vuepress build docs",
+    "refresh-git": "node build.js"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
+  }
+}
